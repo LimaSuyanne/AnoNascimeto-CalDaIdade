@@ -6,6 +6,7 @@ public class Nota {
         System.out.println("Ano de Nascimento");
         int nasc = t.nextInt();
         int i = 2022 -nasc;
+        System.out.println("Sua idade é " +  i +  " anos");
         if (i>=18) {
             System.out.println("Maior de idade");
         } else {
